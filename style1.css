@@ -1,0 +1,55 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/food.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%, -50%);
+  width:400px;
+  background: white;
+  border-radius: 15px;
+  /* text-align: center; */
+}
+.center h1{
+  text-align: center;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid silver;
+  font-family: serif;
+  color: red;
+}
+.center form{
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+form .txt_field{
+position:relative;
+border-bottom: 2px solid #adadad;
+margin: 30px 0;
+}
+.txt_field input{
+  width: 100px
+  padding:0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+}
+.txt_field label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color:#adadad;
+  transform: translate(-50%);
+  font-size: 16px;
+  pointer-events: none;
+}
